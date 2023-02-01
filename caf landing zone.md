@@ -7,8 +7,6 @@ Organize your private repository
 
 # The first step is create a private repository in your current organization. It has to be a git repository.
 
-https://github.com/Azure/caf-terraform-landingzones-platform-starter
-
 Clone the platform starter repository
 
 The platform starter project is an empty environment that get you started with your initial configuration files and create a coherent stack.
@@ -16,8 +14,6 @@ The platform starter project is an empty environment that get you started with y
 Locally
 
 # Adjust the name of your organization and repository
-
-git clone git://github.com/<org>/<repo> contoso && cd contoso
 
 # You should observe:
 Cloning into 'contoso'...
@@ -32,18 +28,31 @@ Open Visual Studio Code from the contoso folder
 Code .
 Trust the repository
 
-<img src="./2/to/img.jpg" alt="Getting started" />
+![trust](https://user-images.githubusercontent.com/72153567/216055301-41709159-d9a9-4bc9-a1bd-9c360ea87215.png)
+
 
  
 Visual Studio code
 Visual Studio code should open your cloned repository and display the following structure.
 Add remote development extension
 Select the Remote - Containers extension and click Install.
+
+![select remote](https://user-images.githubusercontent.com/72153567/216055763-e106e51f-d0af-40a6-a962-e4fa1c2f1bb1.png)
+
+
  
 Re-open vscode in the dev container
 Click on the green bottom left button From the menu select the option
- 
+
+![reopen in container](https://user-images.githubusercontent.com/72153567/216056179-3d23695d-1425-4643-b767-9705446cd51d.png)
+
+
+
 You should now see the following terminal. This terminal is where you will run all terminal commands described in this on-boarding tutorial
+
+![terminal](https://user-images.githubusercontent.com/72153567/216056552-ab0a3569-b3a0-4813-a59a-896f63661367.png)
+
+
  
 Clone the CAF Terraform landingzones code
 Now that you have the configuration folder ready to use, let's clone the logic of landing zones (the Terraform code) that we will use to run the commands.
@@ -93,7 +102,7 @@ Azure subscriptions:
 Management groups:
 •	"management group contributor" permissions on a branch or root management group.
 
-# There are 4 levels in CAF landing Zone 0,1,2,3,4
+# There are 4 levels in CAF landing Zone 0,1,2,3
 
 # LEVEL 0
 
