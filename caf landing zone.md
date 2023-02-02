@@ -100,14 +100,12 @@ Management groups:
 # There are 4 levels in CAF landing Zone 0,1,2,3
 
 ## LEVEL 0
-  Landing Zone 0 is the foundational layer of the Azure Landing Zones and it contains the core Azure subscriptions and services that are used by other layers.
+ For level 0 – (Core platform automation) – It mainly used for State Management.
 
--	For level 0 – (Core platform automation) – It mainly used for State Management.
-
-The different landing zones represented in different state files at level 0 would typically be:
--	The launchpad (storage accounts, Key Vault, RBAC, etc.) components related to Terraform state management.
--	The subscription creation delegation capabilities derived from the Enterprise Agreement or Microsoft Customer Agreement.
--	The credential rotation mechanisms and role-based access control core models.
+   The different landing zones represented in different state files at level 0 would typically be:
+   -	The launchpad (storage accounts, Key Vault, RBAC, etc.) components related to Terraform state management.
+   -	The subscription creation delegation capabilities derived from the Enterprise Agreement or Microsoft Customer Agreement.
+   -	The credential rotation mechanisms and role-based access control core models.
 
 
 
@@ -169,7 +167,7 @@ backend_type = "azurerm"
 
 9. keyvaults - Creation of policies ,caf platform maintainers , caf platform contributors as well as for level 1 and 2.
 
-10. 8. Landingzone – It enables application migration , modernization , and innovation at enterprise – scale in Azure.
+10.Landingzone – It enables application migration , modernization , and innovation at enterprise – scale in Azure.
 backend_type = "azurerm"
   level        = "level0"
   key          = "launchpad"
@@ -209,19 +207,6 @@ resource_groups = {
 
  3. -Subscription -  for core platform (to create the core enterprise-scale subscriptions like Identify, Management, Connectivity etc.)
 
-
-
-# Core platform governance
-
-The different landing zones represented in different state files at level 1 would typically be:
- 
- •	The Azure landing zone (management groups, policies) this would include the core ALZ (formerly called enterprise-scale) capabilities with the related custom            management   group structures and policies configuration. You can either use the out-of-the-box settings for Azure LZ or customize the values for your organization.
-
- •	The platform subscription creation for core platform (to create the core enterprise-scale subscriptions like Identify, Management, Connectivity etc.)
-
- •	The management subscription services for core platform capabilities such as log management, Azure Monitor capabilities, etc.
-
- •	The identity subscription services for core platform such as domain controller virtual machines, Azure Active Directory Domain Services, Azure AD Group mappings        etc.
 
 # Identity
 
