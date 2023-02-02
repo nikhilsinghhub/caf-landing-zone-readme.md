@@ -107,10 +107,24 @@ Management groups:
 # LEVEL 0
 
 -	For level 0 – (Core platform automation) – It mainly used for State Management.
+-	Landing Zone 0 is the foundational layer of the Azure Landing Zones and it contains the core Azure subscriptions and services that are used by other layers.
 The different landing zones represented in different state files at level 0 would typically be:
 -	The launchpad (storage accounts, Key Vault, RBAC, etc.) components related to Terraform state management.
 -	The subscription creation delegation capabilities derived from the Enterprise Agreement or Microsoft Customer Agreement.
 -	The credential rotation mechanisms and role-based access control core models.
+
+# Key Features
+
+Azure Active Directory (AD) for central identity and access management
+Azure Policy for guardrails and automated deployment
+Azure Resource Manager (ARM) templates for infrastructure as code
+Azure Lighthouse for central management of multiple subscriptions
+
+# Benefits
+Centralized identity and access management with Azure AD
+Improved security and governance with Azure Policy guardrails
+Automated deployment and management of infrastructure with ARM templates
+Centralized management of multiple subscriptions with Azure Lighthouse
 
 
 
@@ -195,6 +209,19 @@ Containers state , tags.
 
 # Level 1
 
+Landing Zone 1 is the operational layer of the Azure Landing Zones and it contains the Azure subscriptions and services that are used for day-to-day operations.
+
+# Key Features
+
+Azure Monitor for log collection and analysis
+Azure Security Center for security posture management
+Azure Backup for data protection and recovery
+
+# Benefits
+
+Improved visibility into operations with Azure Monitor
+Enhanced security posture management with Azure Security Center
+Reliable data protection and recovery with Azure Backup
 Three major Resources in level 1 
 
 1. - Identity -  for core platform such as domain controller virtual machines, Azure Active Directory Domain Services, Azure AD Group mappings etc.
