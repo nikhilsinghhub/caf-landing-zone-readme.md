@@ -1,5 +1,5 @@
 # CAF Platform Starter Terraform Landing Zones
--	Single Subscription Deployment Lab
+Single Subscription Deployment Lab
 
  - Setup your organization
 
