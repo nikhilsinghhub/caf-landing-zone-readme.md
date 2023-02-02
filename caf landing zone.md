@@ -248,6 +248,7 @@ resource_groups = {
 
 
 
+
 # Level 2 
 asvm – Azure Subscription Vending Machine – 
 
