@@ -1,9 +1,9 @@
 # CAF Platform Starter Terraform Landing Zones
 -	Single Subscription Deployment Lab
 
-Setup your organization
+ - Setup your organization
 
-Organize your private repository
+ - Organize your private repository
 
 # The first step is create a private repository in your current organization. It has to be a git repository.
 
