@@ -99,6 +99,8 @@ Management groups:
 
 # There are 4 levels in CAF landing Zone 0,1,2,3
 
+
+
 # LEVEL 0
  For level 0 – (Core platform automation) – It mainly used for State Management.
 
@@ -197,6 +199,8 @@ resource_groups = {
 
 
 
+
+
 # Level 1
 
  Landing Zone 1 is the operational layer of the Azure Landing Zones and it contains the Azure subscriptions and services that are used for day-to-day operations.
@@ -242,7 +246,10 @@ resource_groups = {
   1.	Landingzone – It consist type of backend , level1 , key of landongzone.
 
 
-# Level 2 / asvm – Azure Subscription Vending Machine – 
+
+
+# Level 2 
+asvm – Azure Subscription Vending Machine – 
 
   Including the virtual networking components like classic Virtual Network-based Hub and Spoke, Azure Virtual WAN, Azure Virtual WAN regional hub, site-to-site, point-   to-site and ExpressRoute connectivity objects, or third parties Network Virtual Appliances. Due to their regional nature, it is likely that each of those components   would live inside a different Terraform state file.
 
